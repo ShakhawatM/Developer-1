@@ -118,6 +118,7 @@ main {
 }
 .skills-container {
   display: flex;
+  gap: 10px;
 }
 .skill {
   border-radius: 5px;
@@ -135,4 +136,57 @@ main {
   font-size: 18px;
   margin-bottom: 30px;
   color: #757575;
+}
+
+/* resume style */
+
+.resume{
+
+}
+.resume-content{
+  display: flex;
+}
+.education{
+
+}
+.resume-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-item{
+
+}
+.resume-heading{
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.resume-date{
+  font-size: 20px;
+  font-weight: 600;
+  color:  #757575;
+  margin-bottom: 20px;
+}
+.resume-description{
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+  margin-right: 71px;
+}
+.experience{
+
+}
+hr{
+  margin-right: 24px;
+}
+.resume .section-title{
+  margin-bottom: 130px;
+}
+.resume-btn{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 130px;
 }
