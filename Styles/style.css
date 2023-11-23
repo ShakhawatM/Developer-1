@@ -33,6 +33,7 @@
   background-image: url("../images/header_bg.png"), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, left;
+  padding-top: 10px;
 }
 nav {
   display: flex;
@@ -140,22 +141,13 @@ main {
 
 /* resume style */
 
-.resume{
-
-}
 .resume-content{
   display: flex;
-}
-.education{
-
 }
 .resume-title{
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
-}
-.resume-item{
-
 }
 .resume-heading{
   font-size: 25px;
@@ -176,9 +168,6 @@ main {
   margin-bottom: 30px;
   margin-right: 71px;
 }
-.experience{
-
-}
 hr{
   margin-right: 24px;
 }
@@ -189,4 +178,27 @@ hr{
   text-align: center;
   margin-top: 70px;
   margin-bottom: 130px;
+}
+
+/* footer section */
+footer{
+  background-color: #FFF8F3;
+  padding-bottom: 100px;
+}
+.footer-section{
+  display: flex;
+  margin: 130px 230px;
+}
+footer .skill-description{
+  margin-right: 130px;
+}
+.footer-title{
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+.footer-section input[type="text"], input[type="email"], textarea{
+  margin-bottom: 25px;
+  width: 100%;
+  padding: 18px 30px;
+  border: 0;
 }
